@@ -85,7 +85,7 @@ button:hover {
 </style>
 <body>
 
-<form action="/action_page.php" style="border:5px skyblue">
+<form action="nextlogin.jsp" style="border:5px skyblue">
   <div class="container">
     <h1>Log In </h1>
    
@@ -95,7 +95,7 @@ button:hover {
     <input type="text" placeholder="Enter Email" name="email" required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="password" required>
 
     
     <div class="clearfix">
