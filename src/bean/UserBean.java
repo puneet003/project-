@@ -2,47 +2,82 @@ package bean;
 
 
 public class UserBean {
-static private String FirstName;
-static private String LastName;
-static private String BloodGroup;
-static private int Age;
-static private String Address;
-static private int Phone;
-static public  String getFirstName() {
+ private String FirstName;
+private String LastName;
+ private String BloodGroup;
+ private int Age;
+ private String Address;
+ private int Mobile;
+ private String Country;
+ private String Gender;
+ private String Email;
+ private String RecoveryEmail;
+ private String State;
+ public  String getState() {
+	return State;
+}
+ public void setState( String state) {
+	State=state;
+}
+ public  String getRecoveryEmail() {
+	return RecoveryEmail;
+}
+ public void setRecoveryEmail( String recoveryemail) {
+	RecoveryEmail=recoveryemail;
+}
+ public  String getEmail() {
+	return Email;
+}
+ public void setEmail( String email) {
+	Email=email;
+}
+ public  String getGender() {
+	return Gender;
+}
+ public void setGender( String gender) {
+	Gender=gender;
+}
+ public  String getCountry() {
+	return Country;
+}
+ public void setCountry( String country) {
+	Country=country;
+}
+ public  String getFirstName() {
 	return FirstName;
 }
-static public void setFirstName( String name) {
+ public void setFirstName( String name) {
 	FirstName=name;
 }
-static public  String getLastName() {
+ public  String getLastName() {
 	return LastName;
 }
-static public void getLastName( String name) {
+ public void getLastName( String name) {
 	LastName=name;
 }
-static public  String getBloodGroup() {
+ public  String getBloodGroup() {
 	return BloodGroup;
 }
-static public void setBloodGroup( String name) {
+ public void setBloodGroup( String name) {
 	BloodGroup=name;
 }
-static public  int getAge() {
+ public  int getAge() {
 	return Age;
 }
-static public void setAge( int age) {
+ public void setAge( int age) {
 	Age=age;
 }
-static public  String getAddress() {
+ public  String getAddress() {
 	return Address;
 }
-static public void setAddress( String name) {
+ public void setAddress( String name) {
 	Address=name;
 }
-static public  int getPhone() {
-	return Phone;
+ public  int getMobile() {
+	return Mobile;
 }
-static public void setPhone( int phone) {
-	Phone=phone;
+ public void setPhone( int mobile) {
+	Mobile=mobile;
 }
 
 }

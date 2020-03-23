@@ -15,16 +15,23 @@ String s2=request.getParameter("password");
 
 
  boolean result=obj.validate(s1,s2);
- if(result==true){
-	 %>
-	<h1> Successful</h1>
-	 <% 
- }
- else{
-	 %>
-		<h1> Unsuccessul</h1>
-		 <% 
- }
+
+	if(result){
+		session.setAttribute("flag", true);
+		session.setAttribute("email", s1);
+		response.sendRedirect("home2.jsp");
+		
+	}
+	else{
+		out.println("Email or password  Error!");
+		%>
+		<a href='index.html'><button>Try Again</button></a>
+		
+		
+		
+		<% 
+	}
+%>
 
 
 

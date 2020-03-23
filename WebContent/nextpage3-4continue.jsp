@@ -18,7 +18,8 @@ InsertNewUser user=new InsertNewUser();
 user.insertvalues(firstname,lastname,mobile,email,password);
 
 %>
-you have successfully submit the information<br>
+you have successfully submit the information now please for continue login  by using your email and password<br>
+<button type="submit"><a href="index.html"> click here</a></button>
 <body>
 
 </body>
