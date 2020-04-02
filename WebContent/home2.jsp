@@ -252,7 +252,7 @@
           <i class="fas fa-user"></i>
         </div>
         <p class="card-content">Register, track and maintain your profile</p>
-        <button type="button" class="aman btn btn-lg btn-block btn-dark" >Sign Up</button>
+        <button type="button" class="aman btn btn-lg btn-block btn-dark" ><a href="profile.jsp">Sign Up</a></button>
 
       </div>
 

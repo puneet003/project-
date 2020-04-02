@@ -3,9 +3,9 @@ package bean;
 
 public class UserBean {
  private String FirstName;
-private String LastName;
+ private String LastName;
  private String BloodGroup;
- private int Age;
+ private String DOB;
  private String Address;
  private int Mobile;
  private String Country;
@@ -13,6 +13,13 @@ private String LastName;
  private String Email;
  private String RecoveryEmail;
  private String State;
+ private String Timestamp;
+ public String getTimestamp() {
+	 return Timestamp;
+ }
+ public void setTimestamp( String timestamp) {
+	 Timestamp=timestamp;
+ }
  public  String getState() {
 	return State;
 }
@@ -43,6 +50,12 @@ private String LastName;
  public void setCountry( String country) {
 	Country=country;
 }
+ public String getDOB() {
+	 return DOB;
+ }
+ public void setDOB(String dob) {
+	 DOB=dob;
+ }
  public  String getFirstName() {
 	return FirstName;
 }
@@ -61,12 +74,7 @@ private String LastName;
  public void setBloodGroup( String name) {
 	BloodGroup=name;
 }
- public  int getAge() {
-	return Age;
-}
- public void setAge( int age) {
-	Age=age;
-}
+ 
  public  String getAddress() {
 	return Address;
 }
