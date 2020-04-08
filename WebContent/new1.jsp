@@ -1,4 +1,22 @@
+Skip to content
+Search or jump to…
 
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@puneet003 
+amandabathwa
+/
+raktdan
+1
+01
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
+raktdan/home.html
+@amandabathwa amandabathwa Add files via upload
+3fccdf5 6 days ago
+305 lines (219 sloc)  9.21 KB
   
 <!DOCTYPE html>
 <html>
@@ -49,8 +67,20 @@
  <li class="nav-item">
    <a class="nav-link" href="#cta">Download</a>
  </li>
-  
- 
+
+ <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-user fa-4x user"></i>
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="#">Profile</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Logout</a>
+  </div>
+</li>
+
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -63,7 +93,7 @@
       </div>
       <div class="modal-body">
    <form action="nextlogin.jsp">
-  
+
   <div class="form-group">
     <label for="inputAddress">Email</label>
     <input type="text" class="form-control" id="inputAddress" name="email" placeholder="Email">
@@ -72,7 +102,7 @@
     <label for="inputAddress2">Password</label>
     <input type="password" class="form-control" id="inputAddress2"  name="password" placeholder="Password">
   </div>
-  
+
   <button type="submit" class="btn btn-primary">Log In</button>
 </form>
       </div>
@@ -80,19 +110,6 @@
   </div>
 </div>
   </li>
-  
-   <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-user fa-4x user"></i>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="profile.jsp">Profile</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Logout</a>
-  </div>
-</li>
-  
   </ul>
 </div>
  </nav>
@@ -104,7 +121,7 @@
 <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
  </div>
 <div col-lg-6>
-  <img class="title-image" src="blood.png" alt="iphone-mockup">
+  <img class="title-image" src="images/blood.png" alt="iphone-mockup">
     </div>
 </div>
   </section>
@@ -141,12 +158,12 @@
     <div class="carousel-item active" >
       <h2>Locate the nearby blood bank.</h2>
       <p></p>
-      <img class="testimonial-image" src="download.jpg" alt="dog-profile">
+      <img class="testimonial-image" src="images/download.jpg" alt="dog-profile">
       <!-- <em>Pebbles, New York</em> -->
     </div>
     <div class="carousel-item">
       <h2 class="testimonial-text">Recently I cope with sortage of blood, but with Raktdan's help, I quickly able to get the bllod group required.</h2>
-      <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile">
+      <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
       <em>Beverly, Illinois</em>
     </div>
 
@@ -170,10 +187,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img class="press-logo" src="techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -201,7 +218,7 @@
 
 
        <p class="card-content">Get status of available blood stock in blood banks</p>
-       <button type="button" class="aman btn btn-lg btn-block btn-dark"><a href="bloodavail.jsp">Click Here</a></button>
+       <button type="button" class="aman btn btn-lg btn-block btn-dark">Sign Up</button>
 
      </div>
 
@@ -242,7 +259,7 @@
         <i class="fas fa-map-marker-alt"></i>
       </div>
       <p class="card-content">Get contact and navigation details of blood banks</p>
-      <button type="button" class=" aman btn btn-lg btn-block btn-dark"><a href="bloodbanksearch.jsp">Click Here</a></button>
+      <button type="button" class=" aman btn btn-lg btn-block btn-dark">Sign Up</button>
 
 
     </div>
@@ -265,7 +282,7 @@
           <i class="fas fa-user"></i>
         </div>
         <p class="card-content">Register, track and maintain your profile</p>
-        <button type="button" class="aman btn btn-lg btn-block btn-dark" ><a href="profile.jsp">Sign Up</a></button> 
+        <button type="button" class="aman btn btn-lg btn-block btn-dark" >Sign Up</button>
 
       </div>
 
@@ -305,4 +322,17 @@
 
 </body>
 
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 </html>
