@@ -19,7 +19,10 @@ Enter here:<input type="text" name="choice">
 String branch = (String)request.getParameter("choice");
 Connection con =Database.get_connection();
 PreparedStatement ps=con.prepareStatement(  
-	    "select * from cloudblood.bloodbank where State= ? ");
+	    "select *
+	    
+	    
+	    from cloudblood.bloodbank where State= ? ");
 ps.setString(1,branch);
 ResultSet rs=ps.executeQuery();
 session.setAttribute("branch",branch);
